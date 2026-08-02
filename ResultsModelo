@@ -1,0 +1,21 @@
+=======================================================
+   METRIC PERFORMANCE REPORT (30% TEST SET)
+   Generated on: 2026-08-02 19:28:27
+=======================================================
+
+[Simple Baseline] Linear Regression:
+  -> MAE:  98.52 W/m²
+  -> RMSE: 164.52 W/m²
+  -> R²:   0.6466
+
+[Tree-based Baseline] XGBoost Regressor:
+  -> MAE:  71.53 W/m²
+  -> RMSE: 114.62 W/m²
+  -> R²:   0.8285
+
+[Proposed Model] LSTM SOTA (128 Neurons):
+  -> MAE:  91.22 W/m²
+  -> RMSE: 140.57 W/m²
+  -> MBE:  27.71 W/m²
+  -> R²:   0.7420
+=======================================================
